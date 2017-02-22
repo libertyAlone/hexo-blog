@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>Steam Playground</title>
+  <link rel="stylesheet" type="text/css" href="../../games/lib/common.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?64ca6b59231f679c07b7fed91639cbe5";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="action-part">
+      <input type="text" id="steam-id" value="" placeholder="输入你的steamId">
+      <button type="button" id="submit">查询</button>
+      <label for="count-select">
+        高亮最近玩过的<select id="count-select"><select>款游戏
+      </label>
+      <button type="button" class="self-info">查看个人信息</button>
+    </div>
+    <div class="game-list-wrapper">
+      <ul class="game-list"></ul>
+    </div>
+  </div>
+  <script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+  <script type="text/javascript" src="../../games/lib/http.js"></script>
+  <script type="text/javascript" src="../../games/lib/event.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

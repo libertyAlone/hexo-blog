@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>账户信息</title>
+  <link rel="stylesheet" type="text/css" href="../../games/lib/common.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?64ca6b59231f679c07b7fed91639cbe5";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <div class="info">
+    <img src="" id="avatar" alt="头像">
+    <ul class="info-list">
+      <li class="info-item">
+        <span>用户昵称:</span><span id="person-name"></span>
+      </li>
+      <li class="info-item">
+        <span>注册时间:</span><span id="create-time"></span>
+      </li>
+      <li class="info-item">
+        <span>上次登出时间:</span><span id="logoff-time"></span>
+      </li>
+      <li class="info-item">
+        <span>个人简介:</span><a id="profile">点我</a>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+  <script type="text/javascript" src="../../games/lib/http.js"></script>
+  <script type="text/javascript" src="../../games/lib/event.js"></script>
+  <script type="text/javascript" src="info.js"></script>
+</body>
+</html>

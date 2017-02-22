@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>节假日日历</title>
+  <link rel="stylesheet" type="text/css" href="../../games/lib/common.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?64ca6b59231f679c07b7fed91639cbe5";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="date-wrapper">
+      <select id="year"></select>
+      <label for="year">年</label>
+      <select id="month"></select>
+      <label for="month">月</label>
+    </div>
+    <div id="to-today">
+      回到今天
+    </div>
+    <div id="calendar">
+      <ul id="title" class="clearfix">
+        <li class="date"><span>日</span></li>
+        <li class="date"><span>一</span></li>
+        <li class="date"><span>二</span></li>
+        <li class="date"><span>三</span></li>
+        <li class="date"><span>四</span></li>
+        <li class="date"><span>五</span></li>
+        <li class="date"><span>六</span></li>
+      </ul>
+      <ul id="date-list" class="clearfix">
+      </ul>
+    </div>
+  </div>
+  <div class="currency">
+    <span id="con-title">美元对其他币种汇率</span>
+    <ul id="currency-list"></ul>
+  </div>
+  <script type="text/javascript" src="../../games/lib/http.js"></script>
+  <script type="text/javascript" src="../../games/lib/event.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

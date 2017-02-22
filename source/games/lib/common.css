@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+div {
+  position: relative;
+}
+ul {
+  list-style: none;
+  font-size: 0;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #00f;
+}
+button {
+  cursor: pointer;
+}
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}

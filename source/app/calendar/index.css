@@ -1,0 +1,58 @@
+.container {
+  display: inline-block;
+  width: 660px;
+  margin: 40px;
+  background: #eee;
+  padding-top: 10px;
+}
+ul.title {
+  border-bottom: 1px solid #00f;
+}
+#calendar li {
+  position: relative;
+  float: left;
+  width: 14.286%;
+  height: 80px;
+  line-height: 35px;
+  text-align: center
+}
+ul#title li {
+  line-height: 80px;
+}
+li span {
+  font-size: 24px;
+  color: #000;
+  display: block;
+}
+li span.holiday-name {
+  font-size: 16px;
+}
+li span.current {
+  color: #f00;
+}
+li span.no-current-month {
+  color: #ccc;
+}
+.date-wrapper {
+  display: inline-block;
+  left: 20px;
+}
+#to-today {
+  float: right;
+  right: 30px;
+  display: inline-block;
+  background: #9cf433;
+  font-size: 16px;
+  cursor: pointer;
+}
+.currency {
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px 10px;
+}
+#con-title {
+  font-size: 32px;
+}
+#currency-list li {
+  font-size: 20px;
+}

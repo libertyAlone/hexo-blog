@@ -71,7 +71,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@45.76.205.166:hexo.git
+  repo: USER@IP ADDRESS:GIT REPO.git
 feed:
   type: atom
   path: atom.xml
